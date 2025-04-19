@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f0f0f0;
+    display: flex;
+    height: 100vh;
+    background:url(montagne.jpg);
+}
+
+.header_nav nav{
+    top: 0;
+    right: 0;
+    color: white;
+    padding: 10px 0;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul {
+    list-style:none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    
+}
+h2{
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
