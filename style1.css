@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(0, 149, 255);
+    background-color: rgba(255, 132, 0, 0.54);
     color: white;
     flex-direction: column;
     display: flex;
@@ -14,13 +14,27 @@ body{
     height: 150vh;
     line-height: 1.6;
 }
+.card1{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+}
+nav a{
+    font-size: large;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+   
+}
+nav ul{
+    list-style: none;
+}
 .card{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
-    height: 130vh;
-    background-color: rgb(6, 50, 81);
+    height: auto;
+    background-color: rgba(97, 60, 7, 0.912);
     border-radius: 10px;
     margin: auto;
     padding: 30px;
@@ -43,14 +57,14 @@ input[type="submit"]{
     padding: 10px;
     border-radius: 5px;
     border: none;
-    background-color: rgb(0, 149, 255);
+    background-color: rgb(255, 145, 0);
     color: white;
     font-size: 20px;
     cursor: pointer;
 }
 
 input[type="submit"]:hover{
-    background-color: rgb(0, 100, 200);
+    background-color: rgb(200, 97, 0);
     transform: scale(1.05); /* Légère mise en avant au survol */
     transition: all 0.3s ease-in-out;
 }
@@ -97,24 +111,21 @@ input[type="numero"]{
 
 input:focus {
     outline: none;
-    border: 2px solid #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    border: 2px solid #ffa200;
 }
-footer{
+
+footer {
     position: relative;
     text-align: center;
-    height: 100px;
+    height: 100px;;
     width: 100%;
-    text-align: center;
     padding: 10px;
     background-color: rgb(6, 50, 81);
     color: white;
-    font-size: 14px;
-}
-footer {
-    color: white;
+    font-size: 20px;
     text-decoration: none;
 }
+    
 @media (max-width: 768px) {
     .card {
         width: 90%; 
